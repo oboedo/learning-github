@@ -1,0 +1,48 @@
+# Lab4 202336120 leehyunsoo
+
+# Summary of Linux Operating System and Interfaces
+
+**Linux** is an open-source operating system that manages computer hardware and software resources. It provides a user-friendly environment through two primary interfaces: the **Graphical User Interface (GUI)** and the **Command Line Interface (CLI)**.
+
+## Interfaces
+
+### GUI
+- This interface allows users to interact with the system using visual elements such as windows, icons, and menus, making it intuitive and suitable for general users.
+- It offers ease of use but can be slower than CLI.
+
+### CLI
+- In contrast, the CLI requires users to type text-based commands to interact with the system.
+- While it has a steeper learning curve, it provides precise control and is highly efficient for repetitive tasks.
+
+## Key Components of Linux
+
+1. **Kernel**: 
+   - The core component of the operating system that connects hardware and software. 
+   - It efficiently manages system resources and processes.
+
+2. **Shell**: 
+   - A program that acts as an intermediary between the user and the kernel. 
+   - It allows users to communicate with the kernel by sending commands and receiving results. Common shell programs include bash and zsh.
+
+## Basic Shell Commands
+- `pwd`: Displays the current directory path.
+- `cd [path]`: Changes the current directory. Path options include:
+  - `/`: Root directory
+  - `.`: Current directory
+  - `..`: Parent directory
+  - `~`: Home directory of the current user
+  - `/[directory name]`: Absolute path
+  - `./[directory name]`: Relative path
+  - `../[directory name]`: Relative path to the parent directory
+- `ls`: Lists files and directories.
+  - `ls -l`: Lists files in long format.
+  - `ls -lh`: Lists files with sizes in human-readable format.
+  - `ls -la`: Lists all files, including hidden ones, in long format.
+- `clear`: Clears the terminal screen.
+- `cp [Original] [Destination]`: Copies a file or directory.
+- `mv [Original] [Destination]`: Moves or renames a file or directory.
+- `rm [File]`: Deletes a file (use `rm -r [directory]` to delete a directory and its contents).
+- `mkdir [directory]`: Creates a new directory.
+
+## Conclusion
+Linux is a robust operating system where the CLI offers speed and efficiency, requiring command memorization, while the GUI provides ease of use but may be slower. Mastery of basic shell commands enables effective file management and system control.
